@@ -21,7 +21,7 @@ import open from 'open';
 
   try {
     const svg = await renderMermaid(input);
-    fs.writeFileSync('image.svg', svg, (err) => {
+    fs.writeFileSync('temp/image.svg', svg, (err) => {
       if (err) {
         console.error('Error writing SVG file:', err);
         return;
