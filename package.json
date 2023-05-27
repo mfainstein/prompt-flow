@@ -1,0 +1,31 @@
+{
+  "name": "prompt-flow",
+  "version": "1.0.0",
+  "description": "This library enables seamless integration of OpenAI's ChatGPT model into command-line interfaces (CLIs) through piping. It empowers users to generate prompts, receive AI-generated responses, and execute code or view diagrams directly from the command line, enhancing productivity and creative workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatGPT",
+    "ai",
+    "piping",
+    "pipe",
+    "flow",
+    "craft"
+  ],
+  "author": "Mark Fainstein",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "@mermaid-js/mermaid-cli": "^10.1.0",
+    "asciichart": "^1.5.25",
+    "axios": "^1.4.0",
+    "cli-markdown": "^3.0.3",
+    "get-stdin": "^9.0.0",
+    "mermaid-render": "^1.0.9",
+    "open": "^9.1.0",
+    "openai": "^3.2.1",
+    "zibar": "^1.0.15"
+  }
+}

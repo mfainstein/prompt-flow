@@ -1,0 +1,11 @@
+1. save functionality in ai.js
+2. a different graphing maybe? https://www.npmjs.com/package/d3-graphviz
+3. git repo
+4. spinner, loader per pipe
+5. screen record
+  1. execute hello world surprise me
+  2. how to make coffee - readme
+  3. plot the following countries and their population: israel, lebanon, jordan
+5. threads? maybe pipe | new-thread or something
+6. rename to pipes instead of engines
+7. retry strategy? error handling?
