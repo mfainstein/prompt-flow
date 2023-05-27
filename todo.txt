@@ -9,3 +9,4 @@
 5. threads? maybe pipe | new-thread or something
 6. rename to pipes instead of engines
 7. retry strategy? error handling?
+8. export to path (for pipe execuables and not files usage)
