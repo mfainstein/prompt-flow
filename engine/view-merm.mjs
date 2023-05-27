@@ -27,7 +27,7 @@ import open from 'open';
         return;
       }
     });  
-    open('image.svg');
+    open('temp/image.svg');
   } catch (error) {
     console.error('Error occurred during code execution:', error);
   }
