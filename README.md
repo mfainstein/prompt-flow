@@ -1,5 +1,5 @@
 # Prompt-Flow 🌀 💬 
- The cyclone symbolizes the idea of a pipe that connects between elements, while the speech balloon symbolizes the idea of the user being able to generate prompts and receive AI-generated responses. 
+ > The cyclone symbolizes the idea of a pipe that connects between elements, while the speech balloon symbolizes the idea of the user being able to generate prompts and receive AI-generated responses. 
  Together, they represent the library's ability to empower users to execute code or view diagrams directly
  from the command line, enhancing productivity and creative workflows.
 
