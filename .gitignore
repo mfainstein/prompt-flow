@@ -1,0 +1,9 @@
+/node_modules
+.DS_Store
+openai_credentials.json
+helpers/events/token.json
+helper/events/credenitals.json
+/temp
+/resources
+/prompts
+/output
