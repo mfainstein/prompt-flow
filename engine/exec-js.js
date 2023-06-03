@@ -15,10 +15,15 @@
       });
     });
   }
+  const waitEval = (code) => {
+    return new Promise((resolve, reject) => {
+      eval(code);
+    });
+  };
 
   // Execute the JavaScript code using eval()
   try {
-    eval(code);
+    await waitEval(code);
   } catch (error) {
     console.error('Error occurred during code execution:', error);
   }

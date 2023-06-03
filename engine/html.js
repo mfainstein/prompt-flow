@@ -21,7 +21,7 @@
   }
 
   // Add the prefix to the input string
-  const prefix = 'Output html only code of the following prompt: \n';
+  const prefix = 'Output html only code of the following prompt (include all scripts as part of the HTML output): \n';
   const result = prefix + ' ' + input;
 
   // Output the result

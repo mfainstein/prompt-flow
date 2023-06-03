@@ -1,8 +1,10 @@
 #!/usr/bin/env node
-import * as fs from 'fs';
-import open from 'open';
 (async function () {
   // Read input from command line arguments or pipe
+  // ------------------------------------------------------------
+  // Called with arguments. E.g.:
+  // ./example-script "pass in this string as input"
+  // ------------------------------------------------------------
   let input = '';
   if (process.argv.length > 2) {
     input = process.argv.slice(2).join(' ');
@@ -18,15 +20,10 @@ import open from 'open';
     });
   }
 
-  try {
-    fs.writeFileSync('./../temp/page.html', input, (err) => {
-      if (err) {
-        console.error('Error writing HTML file:', err);
-        return;
-      }
-    });  
-    open('./../temp/page.html');
-  } catch (error) {
-    console.error('Error occurred during code execution:', error);
-  }
+  // Add the prefix to the input string
+  const prefix = 'Summarize the following prompt in 1-3 short points: \n';
+  const result = prefix + ' ' + input;
+
+  // Output the result
+  console.log(result);
 })();

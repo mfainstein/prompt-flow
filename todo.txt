@@ -1,12 +1,16 @@
 1. save functionality in ai.js
-2. a different graphing maybe? https://www.npmjs.com/package/d3-graphviz
-3. git repo
-4. spinner, loader per pipe
-5. screen record
+2. screen record
   1. execute hello world surprise me
   2. how to make coffee - readme
   3. plot the following countries and their population: israel, lebanon, jordan
-5. threads? maybe pipe | new-thread or something
-6. rename to pipes instead of engines
-7. retry strategy? error handling?
-8. export to path (for pipe execuables and not files usage)
+3. threads? maybe pipe | new-thread or something (should be context: with some previous inputs / outputs)
+4. rename to pipes instead of engines (?)
+5. retry strategy? error handling?
+6. export to path (for pipe execuables and not files usage)
+7. view-merm -> view-svg or svg and add timestamp
+8. templating engine
+9. mongodb with srv connection in config (migrate to credentials.json)
+10. ai-cache
+11. add another ai other than ChatGPT
+12. summary add to path
+13. add to path script

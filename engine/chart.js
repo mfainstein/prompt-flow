@@ -21,7 +21,7 @@
   }
 
   // Add the prefix to the input string
-  const prefix = 'Create an asciichart (npm library) code (javascript) for (require it as part of the code!!!): \n';
+  const prefix = 'Create a chartjs code for the following prompt (require it as part of the code!!!): \n';
   const result = prefix + ' ' + input;
 
   // Output the result
