@@ -15,4 +15,4 @@ Here are a few usage examples:
 3. `echo 'how to make coffee' | markdown | ai | view-md` 
 4. `echo 'plot these countries and their populations: israel, lebanon, egypt, greece | chart | ai | execute`
 5. `echo 'how to make coffee' | html | ai | open` 
-6. echo "using leaflet js library, show on a worldmap a sample of 10 random countries with their population count; include the leaflet script as part of the html\!\!\!" | html | ai | browser
+6. `echo "using leaflet js library, show on a worldmap a sample of 10 random countries with their population count; include the leaflet script as part of the html\!" | html | ai | browser`
