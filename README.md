@@ -3,7 +3,7 @@
  Together, they represent the library's ability to empower users to execute code or view diagrams directly
  from the command line, enhancing productivity and creative workflows.
 
-Prompt-Flow is a library that enables seamless integration of OpenAI's ChatGPT model into command-line interfaces (CLIs) through piping. It empowers users to generate prompts, receive AI-generated responses, and execute code or view diagrams directly from the command line, enhancing productivity and creative workflows.
+Prompt-Flow is a library that enables seamless integration of any conversational AI model into command-line interfaces (CLIs) through piping. It empowers users to generate prompts, receive AI-generated responses, and execute code or view diagrams directly from the command line, enhancing productivity and creative workflows.
 
 ## Usage example
 
