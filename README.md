@@ -19,6 +19,17 @@ in the directory of installation.
 
 1. Run the command `npm run executables` in your terminal.
 2. Ensure that your system's PATH includes the directory where the Prompt-Flow executable resides (/engine).
+   
+## Usage
+
+### World markers
+<img src="./usage/leaflet.gif" alt="leaflet">   
+
+### Charting
+<img src="./usage/leaflet.gif" alt="chart"> 
+
+### Mermaid
+<img src="./usage/mermaid.gif" alt="mermaid"> 
 
 ## More  
 Here are a few usage examples: 
