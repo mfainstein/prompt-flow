@@ -11,7 +11,7 @@ Prompt-Flow is a library that enables seamless integration of OpenAI's ChatGPT m
 To install Prompt-Flow, cd into the directory and run `npm install`. To configure it, create a `openai_credentials.json` file in the root folder, with two fields: `apiKey` and `orgId` from your OpenAi account.
 
 ## Executables
-After installing and configuring Prompt-Flow, you can take advantage of 'npm run executables' to run commands (from everywhere)
+After installing and configuring Prompt-Flow, you can take advantage of 'npm run executables' to run commands (from everywhere) in this way:
  `echo 'hello world with a great twist! ' | code | ai | execute` 
 instead of 
 `echo 'hello world with a great twist! ' | ./engine/code.js | ./engine/ai.js | ./engine/execute.js`
