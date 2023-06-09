@@ -5,8 +5,6 @@
 
 Prompt-Flow is a library that enables seamless integration of any conversational AI model into command-line interfaces (CLIs) through piping. It empowers users to generate prompts, receive AI-generated responses, and execute code or view diagrams directly from the command line, enhancing productivity and creative workflows.
 
-## Usage example
-
 ## Installation 
 To install Prompt-Flow, cd into the directory and run `npm install`. To configure it, create a `openai_credentials.json` file in the root folder, with two fields: `apiKey` and `orgId` from your OpenAi account.
 
@@ -20,16 +18,10 @@ in the directory of installation.
 1. Run the command `npm run executables` in your terminal.
 2. Ensure that your system's PATH includes the directory where the Prompt-Flow executable resides (/engine).
    
-## Usage 
+## Usage
 
-### Charting
-<img src="./usage/plot.gif" alt="chart"> 
-
-### Mermaid
 <img src="./usage/mermaid.gif" alt="mermaid"> 
 
-## More  
-Here are a few usage examples: 
 1. `echo 'hello world with a great twist! ' | code | ai | execute` 
 2. `echo 'different types of coffee' | mermaid | ai | view-merm` 
 3. `echo 'how to make coffee' | markdown | ai | view-md` 
