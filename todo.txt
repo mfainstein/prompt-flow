@@ -14,3 +14,5 @@
 11. add another ai other than ChatGPT (ai-bard etc?)
 12. summary add to path
 13. add to path script
+14. configuration using prompting cli
+
